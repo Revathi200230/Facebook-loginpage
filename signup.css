@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:#fff;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #0000FF;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.signup{
+    background-color:white;
+    position:absolute;
+    width:440px;
+    height: 590px;
+    margin:-8vh 950px;
+    border:1px solid #ccc;
+    margin-left: 480px;
+    padding:5px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+form{
+    margin: 5px;
+}
+h3{
+    text-align: center;
+}
+.sub{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fname, .lname{
+    padding: 6px;
+    font-size: 15px;
+    width: 180px;
+    border: 1px solid #ccc;
+}
+.fname{
+    margin-left: 20px;
+}
+.mobile, .pass{
+    padding:6px;
+    font-size: 15px;
+    width: 380px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+h6{
+    color:grey;
+    margin-left: 20px;
+    font-size: 13px;
+}
+select{
+    padding: 5px;
+    width: 115px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label{
+    margin-left: 50px;
+}
+p{
+    font-size: 11px;
+    color:grey;
+    margin-left: 20px;
+}
+.submit{
+    margin-left: 150px;
+    text-align: center;
+    background-color:#2db83d;
+    width: 160px;
+    padding: 6px;
+    font-size: 19px;
+    color:white;
+    border: 1px solid #ccc;
+}
+.acc{
+    color:#0000FF;
+    font-size: 15px;
+    text-align: center;
+}
+.signup, input{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    h2{
+        margin-left:30px;
+    }
+    form, .signup{
+        margin-left:5px; 
+      }
+}
